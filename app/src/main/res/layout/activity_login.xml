@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".LoginActivity">
+
+  <ImageView
+      android:layout_width="125dp"
+      android:layout_height="125dp"
+      android:layout_marginBottom="35dp"
+      android:src="@drawable/rupee"
+      android:contentDescription="@null"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str1_name"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
+        android:textColorHint="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str2_name"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:textColorHint="#000"
+        android:layout_margin="5dp"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:text="login"/>
+    <TextView
+        android:id="@+id/loginQn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account,signup"
+        android:gravity="center"/>
+</LinearLayout>

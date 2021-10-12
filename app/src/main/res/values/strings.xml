@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Expense tracker app</string>
+    <string name="str1_name">Enter Email</string>
+    <string name="str2_name">Enter Password</string>
+    <string name="str3_name">Login</string>
+    <string name="str4_name">Enter Email</string>
+    <string name="str5_name">Enter Password</string>
+    <string name="str6_name">signup</string>
+    <string name="total_budget_amount_rs0">Total budget amount: Rs0</string>
+    <string-array name="items">
+        <item>select item</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Charity</item>
+        <item>Apparel</item>
+        <item>Health</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_bottomnav">bottomnav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom_nav">bottomNavActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+</resources>
